@@ -124,9 +124,7 @@ output_dir/
 ├── cell_props.png             # optional barplot of blood-cell composition
 ├── explained_variance.png     # optional PCA scree (BS)
 ├── Hydroxymethylation Density by Sample.png  # optional 5hmC densities
-└── SVD_Plots/                 # created when plotSVD = TRUE
-    ├── ChAMP.SVD.pdf
-    └── ChAMP.SVD.Rdata
+└── SVDsummary.pdf                 # created when plotSVD = TRUE
 ```
 
 The function **returns** an invisible list:
