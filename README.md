@@ -22,7 +22,7 @@ This workflow is built to:
 - Estimate sex, cell type proportions and predict smoking status and age.  
 - Run the MLML method to quantify hydroxymethylation (5hmC) levels.  
 
-# `preprocess_hydroxymethylation()`
+# `preprocess_hydroxymethylation_data()`
 
 ## Workflow Overview
 
@@ -32,7 +32,7 @@ This workflow is built to:
 ## Function Signature
 
 ```r
-preprocess_hydroxymethylation(
+preprocess_hydroxymethylation_data(
   ox_file, bs_file,
   annotation_array           = "IlluminaHumanMethylationEPICv2",
   annotation_version         = "20a1.hg38",
@@ -162,7 +162,7 @@ Each step frees memory with `rm(); gc()`.
 ```r
 library(HydroxymethylateR)
 
-results <- preprocess_hydroxymethylation(
+results <- preprocess_hydroxymethylation_data(
   ox_file    = "metadata_oxbs.csv",
   bs_file    = "metadata_bs.csv",
   output_dir = "results"
