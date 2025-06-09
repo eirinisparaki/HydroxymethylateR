@@ -122,7 +122,7 @@ output_dir/
 ├── phenotype_table.csv        # per-sample metadata (+ optional sex, PCs, etc.)
 ├── filtered_hmC.csv           # long-format 5hmC after variance filtering
 ├── cell_props.png             # optional barplot of blood-cell composition
-├── explained_variance.png     # optional PCA scree (BS)
+├── explained_variance.png     # Explained variance
 ├── Hydroxymethylation Density by Sample.png  # optional 5hmC densities
 └── SVDsummary.pdf                 # created when plotSVD = TRUE
 ```
