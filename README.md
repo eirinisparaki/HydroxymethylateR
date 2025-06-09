@@ -179,12 +179,10 @@ head(results$filtered_hmC)
 The following R packages (from CRAN and Bioconductor) are required:
 
 ### CRAN Packages:
-- `dplyr`, `ggridges`, `plotly`, `ggrepel`, `readr`, `viridis`,  
-  `tidyr`, `data.table`, `ggplot2` 
+- `viridis`, `ggplot2`, `reshape2`
 
 ### Bioconductor Packages:
-- `FlowSorted.Blood.EPIC`, `sesame`, `wateRmelon`, `limma`,  
-  `MLML2R`, `EpiSmokEr`, `minfi`, `ChAMP`
+- `FlowSorted.Blood.EPIC`, `sesame`, `wateRmelon`,`MLML2R`, `EpiSmokEr`, `minfi`, `ChAMP`
 ---
 
 ## Installation Instructions
@@ -196,11 +194,17 @@ devtools::intall_github("eirinisparaki/HydroxymethylateR")
 ```
 ---
 
-## Citation
+Here's the Markdown text you can add to your `README.md` to cover both the citation of your tool and a reference to the citation list for dependencies:
+
+---
+
+### 📖 Citation
 
 If you use **HydroxymethylateR** in your research, please cite:
 
-- This GitHub repository: [eirinisparaki/HydroxymethylateR](https://github.com/eirinisparaki/HydroxymethylateR)
+* This GitHub repository: [eirinisparaki/HydroxymethylateR](https://github.com/eirinisparaki/HydroxymethylateR)
+
+For citations of the R packages used in this project, please refer to [CITATIONS.md](CITATIONS.md).
 
 ---
 
