@@ -71,13 +71,13 @@ preprocess_hydroxymethylation_data(
 | `ChAMPfilter_arraytype_ox`   | As above                       | `"EPICv2"`                         | Array type for ChAMP filter (OxBS).             |
 | `ChAMPfilter_ProbeCutoff_ox` | `numeric` 0–1                  | `0.01`                             | ProbeCutoff (OxBS).                             |
 | `file_inaccuracies`          | `NULL` or path                 | `NULL`                             | Inaccurancies probes list (column **`IlmnID`**).|
-| `low_variance_threshold_hmc` | `numeric ≥ 0`                  | `0`                                | Low variance threshold 5hmc                     |
+| `low_variance_threshold_hmc` | `numeric ≥ 0`                  | `0`                                | Low variance threshold 5hmc.                    |
 | `predictSex`                 | `logical`                      | `FALSE`                            | Add sex prediction via `minfi::getSex()`.       |
 | `predictSmoking`             | `logical`                      | `FALSE`                            | Add smoking score via **EpiSmokEr**.            |
 | `predictAge`                 | `logical`                      | `FALSE`                            | Add DNAm age (Horvath) via **wateRmelon**.      |
 | `calculateCellPropPCs`       | `logical`                      | `FALSE`                            | Estimate blood-cell composition-PCs.            |
-| `plotCellProps`              | `logical`                      | `FALSE`                            | Save stacked-bar chart cell-composition plot    |
-| `plotPCA`                    | `logical`                      | `FALSE`                            | Save PCA                                        |
+| `plotCellProps`              | `logical`                      | `FALSE`                            | Save stacked-bar chart cell-composition plot.   |
+| `plotPCA`                    | `logical`                      | `FALSE`                            | Save PCA.                                       |
 | `plotSVD`                    | `logical`                      | `FALSE`                            | Save ChAMP SVD plots.                           |
 | `plotHmC`                    | `logical`                      | `FALSE`                            | Save 5hmC density plot.                         |
 | `output_dir`                 | `character` (path)             | `getwd()`                          | Destination folder for all outputs.             |
