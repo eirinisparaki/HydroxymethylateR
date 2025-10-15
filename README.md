@@ -188,7 +188,7 @@ The following R packages (from CRAN and Bioconductor) are required:
 To install this workflow:
 
 ```bash
-devtools::intall_github("eirinisparaki/HydroxymethylateR")
+devtools::install_github("eirinisparaki/HydroxymethylateR")
 ```
 ---
 
